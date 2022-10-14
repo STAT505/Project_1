@@ -1,0 +1,38 @@
+---
+title: "Project 1"
+author: "Andy Hoegh"
+date: "10/14/2020"
+output: pdf_document
+bibliography: refs.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Introduction
+
+This is an R Markdown document template for the project. You can use this bibtek to automatically generate references, for example the class textbook is @gelman2020.
+
+## Data Overview
+
+```{r}
+n <- 100
+x <- runif(n)
+y <- rnorm(2 - 4*x, 3)
+dat <- tibble(y = y, x = x)
+```
+
+```{r, echo = F, fig.cap = 'This is how to write a caption', fig.height = 3, fig.width = 5, fig.align = 'center'}
+dat %>% ggplot(aes(y=y, x=x)) + geom_point() + theme_bw()
+```
+
+## Statistical Procedures
+
+## Results
+
+## Discussion
+
+## References
+

@@ -1,0 +1,52 @@
+---
+title: "Stat 505: Project 1 Rubric"
+output:
+  pdf_document: default
+---
+
+All items are graded with the following scheme, but certain components have multipliers:
+
+1. __No Credit__: Criterion was not addressed or was written in a way that was not understandable.
+
+2. __Beginning__:  Ideas are not clear and supporting ideas are not presented.
+
+3. __Developing__: Ideas are identified but not well supported and developed or are minimally supported and developed.
+
+4. __Advanced__: Ideas are clearly identified and are adequately supported and developed.
+
+ __Report generalities: (/20 points)__ 
+
+- Spelling, grammar, writing clarity
+- Paragraphs, section labels, length: double spaced, Figures (reporting and labeling) included in text, Tables, if any, (reporting and labeling) included in text
+- Acknowledgments for other resources, Appendix with complete code, Citations for papers and packages used
+- Proper use of statistical methods (x2)
+
+
+__1. Introduction: (/12 points)__
+
+- Project opening
+- Project background
+- Project challenge (Research question)
+
+
+__2. Data: (/20 points)__ 
+
+- Description of variables with units
+- Data Visualization: Content
+- Data Visualization: Quality
+- Data Visualization: Labels, titles, captions
+- Comments on any interesting findings
+
+__3. Statistical Procedures:(/20 points)__ 
+
+- Describe model to fit 
+- Justification of model choice
+- Discuss/assess model assumptions (X3)
+
+
+__4. Results: (/16 points)__ 
+
+- Uncertainty intervals and interpretations for coefficients relevant to the chosen claim 
+- Plot of the fitted model that is appropriate for investigating the chosen claim 
+- Answer to whether there is statistical evidence for the chosen claim based on these data 
+- Scope of Inference: how can the results be generalized? 
